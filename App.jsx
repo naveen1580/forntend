@@ -1,5 +1,12 @@
-import AppRoutes from "./routes/AppRoutes";
+import React from "react";
 
-export default function App() {
-  return <AppRoutes />;
+function App() {
+  return (
+    <div>
+      <h1>Hello Render!</h1>
+      <p>Your Vite + React app is working ✅</p>
+    </div>
+  );
 }
+
+export default App;
